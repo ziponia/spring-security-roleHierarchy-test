@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lagn="ko"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8" />
+    <title>thymeleaf layout</title>
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1, user-scalable=yes,initial-scale=1.0" />
+</head>
+<body>
+<ul>
+    <li><a th:href="@{/}">홈</a></li>
+    <li><a th:href="@{/대표이사}">대표이사</a></li>
+    <li><a th:href="@{/개발팀장}">개발팀장</a></li>
+    <li><a th:href="@{/디자인팀장}">디자인팀장</a></li>
+    <li><a th:href="@{/회계팀장}">회계팀장</a></li>
+    <li><a th:href="@{/마케팅팀장}">마케팅팀장</a></li>
+    <li><a th:href="@{/프런트엔드팀}">프런트엔드팀</a></li>
+    <li><a th:href="@{/안드로이드팀}">안드로이드팀</a></li>
+</ul>
+<th:block layout:fragment="content"></th:block>
+</body>
+</html>

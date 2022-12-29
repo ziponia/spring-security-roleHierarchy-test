@@ -1,0 +1,4 @@
+spring:
+  thymeleaf:
+    prefix: file:///${user.dir}/src/main/resources/templates/
+    cache: false
